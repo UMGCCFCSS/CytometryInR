@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  google-analytics: "G-LZ35J3XE4D"
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "Thanks for investigating"
+    type: info
+    position: below-navbar  
+  title: "Cytometry in R"
+  navbar:
+    background: white
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Schedule"
+        menu: 
+        - text: "Schedule"
+          href: index.qmd
+    right:
+    - icon: github
+      href: https://github.com/UMGCCFCSS/CytometryInR
+      aria-label: GitHub
+  sidebar:
+      style: floating
+      search: true
+      contents:
+        - section: "Getting Started"
+          contents:
+          -  text: "Introduction"
+             href: https://umgccfcss.github.io/CytometryInR/
+  page-footer: 
+   left: Made with [Quarto](https://quarto.org/)
+   right: |
+    ![AGPL-3.0](/images/AGPL3.png)
+    ![CC-BY-SA](/images/CCBYSA.png)
+format:
+  html:
+    css: styles.css
+
