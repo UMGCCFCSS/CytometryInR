@@ -11,8 +11,8 @@ Website Assembly Starts Now
 [![AGPL-3.0][agpl3-image]][agpl3]
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 </div>
-This material is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
-The code examples are licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE (AGPL-3.0)]()
+
+The course material is licensed under under the [Creative Commons Attribution-Share  Alike 4.0 International License][cc-by-sa]. The code examples provided in this course are licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE (AGPL-3.0)]()
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png

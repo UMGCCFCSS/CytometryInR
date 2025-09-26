@@ -1,9 +1,23 @@
 [
   {
+    "objectID": "Schedule.html",
+    "href": "Schedule.html",
+    "title": "Cytometry in R",
+    "section": "",
+    "text": "Monday, October 06, 2025:\nSetting up workstation\nMonday, October 13, 2025:\nFile Paths\nMonday, October 20, 2025:\nInside an FCS File\nMonday, October 27, 2025:\nInto the Tidyverse\nMonday, November 03, 2025:\nGating Sets\nMonday, November 10, 2025:\nVisualizing: ggplot2 layers\nMonday, November 17, 2025:\nTransformations and compensation\nMonday, November 24, 2025: Thanksgiving\nDid someone say functions?\nMonday, December 01, 2025:\nDownsampling and concatenation\nMonday, December 08, 2025:\nSpectral Signatures\nMonday, December 15, 2025:\nSimilarities and Hotspots\nMonday, December 22, 2025:\nData for Statistics\nMonday, January 05, 2026:\nUnmixing in R\nMonday, January 12, 2026:\nAutomated Gating\nMonday, January 19, 2026:\nData Clean Up\nMonday, January 26, 2026:\nUnsupervised Clustering\nMonday, February 03, 2026:\nNormalization\nMonday, February 09, 2026:\nDimensionality Visualization\nMonday, February 16, 2026:\nAnnotating Clusters\nMonday, February 23, 2026:\nThe Art of GitHub diving\nMonday, March 02, 2026:\nXML files all the way down\nMonday, March 09, 2026:\nIntegrating Bioconductor Workflows\nMonday, March 16, 2026:\nR packages for shits and giggles\nMonday, March 23, 2026:\nReproducibility and replicability\nMonday, March 30, 2026:\nValidating algorithmic tools\nMonday, April 06, 2026:\nQuarto Websites\nMonday, April 13, 2026:\nOpen Source Licenses\nMonday, April 20, 2026:\nDatabases and repositories\nMonday, April 27, 2026:"
+  },
+  {
+    "objectID": "Schedule.html#cytometry-in-r-a-course-for-beginners",
+    "href": "Schedule.html#cytometry-in-r-a-course-for-beginners",
+    "title": "Cytometry in R",
+    "section": "",
+    "text": "Monday, October 06, 2025:\nSetting up workstation\nMonday, October 13, 2025:\nFile Paths\nMonday, October 20, 2025:\nInside an FCS File\nMonday, October 27, 2025:\nInto the Tidyverse\nMonday, November 03, 2025:\nGating Sets\nMonday, November 10, 2025:\nVisualizing: ggplot2 layers\nMonday, November 17, 2025:\nTransformations and compensation\nMonday, November 24, 2025: Thanksgiving\nDid someone say functions?\nMonday, December 01, 2025:\nDownsampling and concatenation\nMonday, December 08, 2025:\nSpectral Signatures\nMonday, December 15, 2025:\nSimilarities and Hotspots\nMonday, December 22, 2025:\nData for Statistics\nMonday, January 05, 2026:\nUnmixing in R\nMonday, January 12, 2026:\nAutomated Gating\nMonday, January 19, 2026:\nData Clean Up\nMonday, January 26, 2026:\nUnsupervised Clustering\nMonday, February 03, 2026:\nNormalization\nMonday, February 09, 2026:\nDimensionality Visualization\nMonday, February 16, 2026:\nAnnotating Clusters\nMonday, February 23, 2026:\nThe Art of GitHub diving\nMonday, March 02, 2026:\nXML files all the way down\nMonday, March 09, 2026:\nIntegrating Bioconductor Workflows\nMonday, March 16, 2026:\nR packages for shits and giggles\nMonday, March 23, 2026:\nReproducibility and replicability\nMonday, March 30, 2026:\nValidating algorithmic tools\nMonday, April 06, 2026:\nQuarto Websites\nMonday, April 13, 2026:\nOpen Source Licenses\nMonday, April 20, 2026:\nDatabases and repositories\nMonday, April 27, 2026:"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Cytometry in R: A course for beginners",
     "section": "",
-    "text": "Cytometry in R: A course for beginners\nWebsite Assembly Starts Now\n\n \n\nThis material is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. The code examples are licensed under the GNU AFFERO GENERAL PUBLIC LICENSE (AGPL-3.0)"
+    "text": "Cytometry in R: A course for beginners\nWebsite Assembly Starts Now\n\n \n\nThe course material is licensed under under the Creative Commons Attribution-Share Alike 4.0 International License. The code examples provided in this course are licensed under the GNU AFFERO GENERAL PUBLIC LICENSE (AGPL-3.0)"
   }
 ]

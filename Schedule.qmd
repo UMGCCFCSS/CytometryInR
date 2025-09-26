@@ -1,0 +1,128 @@
+## **Cytometry in R: A Course for Beginners**
+
+[**Monday, October 06, 2025:**]{.underline} "Workstation Setup"
+
+The main focus of this first session is ensuring everyone's computer is properly setup, and starts building familiarity with the infrastructure used for the rest of the course. 
+
+Participants install R, Rtools, Positron, Quarto, and Git; then setup and link a GitHub account. Introduces the concept of version control, and how in combination with Quarto it will be used for submitting optional take-home assignments. Finally, R packages in the flow cytometry context are discussed, including where they can be found (CRAN, Bioconductor, GitHub) and how to install them. 
+
+[**Monday, October 13, 2025:**]{.underline} "File Paths"
+
+This second session covers file paths, and how they differ between operating systems (Linux, macOS and Windows). The goal is by the end of the session everyone can programmatically locate where there .fcs files are stored, list any other items present in the same folders, and assign alternate storage locations. 
+
+[**Monday, October 20, 2025:**]{.underline} "Inside an .FCS file "
+
+This third session revolves around breaking open an .FCS file and seeing what are the individual components that make it up. In the process, we cover the concepts of types of data structures within R (vectors, matrices, data.frames, list). 
+
+[**Monday, October 27, 2025:**]{.underline} "Introduction to the Tidyverse"
+
+This fourth session explores how the various Tidyverse packages can be used to rearrange data. We utilize the expression data we isolated from inside our experiment to manipulate data.frames and select for cells that meet certain criteria. 
+
+[**Monday, November 03, 2025:**]{.underline} "Gating Sets"
+
+This fifth session involves learning about the flow cytometry infrastructure packages, namely FlowCore and flowWorkspace. We explore how they differ in function naming, memory utilization, and metadata retention. We practice adding metadata and filtering on the basis of these conditions.  
+
+[**Monday, November 10, 2025:**]{.underline} Visualizing with ggplot2
+
+This sixth session provides an introduction to the ggplot2 package. We learn about various layer elements that in combination can be used to produce many types of plots. For this session, we visualize data from our fcs files with 1 and 2D histograms, as well as generate a few statistical summary plots. We provide links to additional helpful resources for those interested in learning more
+
+[**Monday, November 17, 2025:**]{.underline} Transformations and compensation
+
+For this seventh session, we explore how to transform (scale) flow cytometry data in R to more ressemble the plots we encounter using commercial software. We also explore how to apply compensation to conventional flow cytometry files. 
+
+
+[**Monday, November 24, 2025:**]{.underline}  "It's raining functions"
+
+This eight session takes a detailed walk-through of what is a function, how arguments work, and how to create your own to do useful work and reduce the number of times code gets copied and pasted. We also cover how to use your own functions with walk and map from the purrr package.
+
+[**Monday, December 01, 2025:**]{.underline} Downsampling and Concatenation
+
+This ninth session explores how to downsample your fcs files to a desired number or percentage, and how to concatenate different samples together for use in downstream applications. We also briefly review how to create a new .fcs file. 
+
+[**Monday, December 08, 2025:**]{.underline} Spectral Signatures
+
+In this tenth session we explore extracting fluorescent signatures from our samples, both beads and cells. We build on prior concepts to isolate median of the positive and negative gates. We finally wrap up showcasing various packages that have added ease of life for various steps. 
+
+[**Monday, December 15, 2025:**]{.underline} Similarities and Hotspots
+
+Utilizing the spectral signatures we retrieved in the prior session, we evaluate spectral similarity using cosine values and panel complexity with kappa. We finally evaluate collinearity by implementing the hotspot matrix. 
+
+
+
+[**Monday, December 22, 2025:**]{.underline} Data for Statistics
+
+Leveraging increasing familiarity with the various packages, we will retrieve the gates from our GatingSet and work on programmatically derriving metrics that are typically used for statistical analysis in cytometry. We will create a couple additional ggplot style plots to add to our arsenal. 
+
+[**Monday, January 05, 2026:**]{.underline} 
+
+This first session of the new year goes for a reach goal, how to carry out unmixing of raw .fcs files using the spectral signatures we have isolated from our unmixing controls. Once we evaluate the internals, we explore how various cytometry packages vary in their own individual approaches. 
+
+[**Monday, January 12, 2026:**]{.underline} 
+
+Automated Gating
+
+[**Monday, January 19, 2026:**]{.underline} 
+
+Data Clean Up
+
+[**Monday, January 26, 2026:**]{.underline} 
+
+Unsupervised Clustering
+
+[**Monday, February 02, 2026:**]{.underline} 
+
+Normalization
+
+[**Monday, February 09, 2026:**]{.underline} 
+
+Dimensionality Visualization
+
+[**Monday, February 16, 2026:**]{.underline} 
+
+Annotating Clusters
+
+[**Monday, February 23, 2026:**]{.underline} 
+
+The Art of GitHub diving
+
+[**Monday, March 02, 2026:**]{.underline} 
+
+XML files all the way down
+
+[**Monday, March 09, 2026:**]{.underline} 
+
+Integrating Bioconductor Workflows
+
+[**Monday, March 16, 2026:**]{.underline} 
+
+R packages for shits and giggles
+
+[**Monday, March 23, 2026:**]{.underline} 
+
+Reproducibility and replicability
+
+[**Monday, March 30, 2026:**]{.underline} 
+
+Validating algorithmic tools
+
+[**Monday, April 06, 2026:**]{.underline} 
+
+Quarto Websites
+
+[**Monday, April 13, 2026:**]{.underline} 
+
+Open Source Licenses
+
+[**Monday, April 20, 2026:**]{.underline} 
+
+Databases and repositories
+
+[**Monday, April 27, 2026:**]{.underline} 
+
+
+
+
+
+
+
+

@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - Schedule.qmd
 website:
   google-analytics: "G-LZ35J3XE4D"
   announcement: 
@@ -11,6 +14,7 @@ website:
     position: below-navbar  
   title: "Cytometry in R"
   navbar:
+    logo: images/hex.svg
     background: white
     left:
       - href: index.qmd
@@ -18,19 +22,11 @@ website:
       - text: "Schedule"
         menu: 
         - text: "Schedule"
-          href: index.qmd
+          href: Schedule.qmd
     right:
     - icon: github
       href: https://github.com/UMGCCFCSS/CytometryInR
       aria-label: GitHub
-  sidebar:
-      style: floating
-      search: true
-      contents:
-        - section: "Getting Started"
-          contents:
-          -  text: "Introduction"
-             href: https://umgccfcss.github.io/CytometryInR/
   page-footer: 
    left: Made with [Quarto](https://quarto.org/)
    right: |
