@@ -59,31 +59,31 @@ This first session of the new year goes for a reach goal, how to carry out unmix
 
 [**Monday, January 12, 2026:**]{.underline} 
 
-Automated Gating
+In this session, we explore openCyto and it's automated gating templates. We explore various gating implementations and work on learning how to set the gate constraints to work for our own projects. We utilize a cell count dataset for this purpose. 
 
 [**Monday, January 19, 2026:**]{.underline} 
 
-Data Clean Up
+We evaluate the data cleanup algorithms, PeacoQC, FlowAI, FlowCut and FlowClean, and compare the various elements that get targeted for removal. We discuss which of these are worthwhile and how to evaluate whether the algorithmic decisions make sense. 
 
 [**Monday, January 26, 2026:**]{.underline} 
 
-Unsupervised Clustering
+We explore unsupervised clustering approaches, primarily FlowSOM, Phenograph, and kmeans. We investigate additional ways of linking these approaches to our manual gating to evaluate the final clusters. 
 
 [**Monday, February 02, 2026:**]{.underline} 
 
-Normalization
+We investigate how to normalize cells using CytoNorm and CyCombine. We evaluate ridge plots and other approaches to carry this out further. 
 
 [**Monday, February 09, 2026:**]{.underline} 
 
-Dimensionality Visualization
+We perform tSNE and UMAP in R for our raw and unmixed samples. We also walk through the steps of linking to a Python installation in order to run PaCMAP and Phate visualizations. 
 
 [**Monday, February 16, 2026:**]{.underline} 
 
-Annotating Clusters
+We explore various existing implementations of annotation, that can be modified to label our various clusters and islands. We investigate how these function under the hood in their decision making. 
 
 [**Monday, February 23, 2026:**]{.underline} 
 
-The Art of GitHub diving
+While we have been building familiarity with GitHub over the course, there is an art to investigating a new potential package to see if its worthwhile. This session we walk through the main points of how a Github repository is structured, and how to evaluate and use it, submit bug reports, etc. 
 
 [**Monday, March 02, 2026:**]{.underline} 
 
