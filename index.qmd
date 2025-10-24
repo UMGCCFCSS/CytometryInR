@@ -1,43 +1,80 @@
+---
+toc: true
+toc-location: right
+---
+
 <div style="text-align: right;">
 [![AGPL-3.0][agpl3-shield]][agpl3]
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 </div>
 
-# Cytometry in R: A course for beginners
+To see our tentative schedule, please click here:
 
-"Cytometry in R" is a free weekly mini-course being offered both online and in person at the University of Maryland, Baltimore. It is primarily geared toward those who have previous flow cytometry experience, but limited prior experience with the programming language R. 
+To sign up, please complete the Google Form and we will keep you updated:
 
-Existing resources for learning how to work with flow cytometry files in R are limited, or have a more applied focus geared towards those who already possess intermediate bioinformatics skills. We are offering our course with the following concepts in mind: 1) That begginers benefit from having examples that they they can work through and expand on; 2) that some topics will simply take longer to fully grasp, but that consistency is key; and 3) we are all busy, and that missing a day is highly likely, and that this reality shouldn't make or break understanding the rest of the course.
 
-Consequently, our mini-course will be offered in the following format: 
+### Motivation
 
-Each week, the course will cover a particular topic for an hour. That class is offered on multiple days and times, both in-person and online. You are invited to attend whatever day best fits your schedule for the week. If things are busy, and you can't make your regular day, please join us for any of the other four times that week the exact same topic is being covered! In person, these are Monday, Wednesday, Friday from 4-5 pm EST in Bressler 7-035, virtual options Tuesday and Thursday 4-5 pm EST on YouTube and the Cytometry Discord.
+"Cytometry in R" is a weekly mini-course being offered both in-person and online by the Flow Cytometry Shared Resource staff at the University of Maryland Greenebaum Comprehensive Cancer Center. Its primary audience is for those with prior flow cytometry knowledge, who have limited previous experience with with the programming language R. 
 
-What is the cost to participate? It is free!!! What's the catch? You learn R, and may wind up having strong opinions about flowframes vs. cytoframes. 
+While many cytometry enthusiast express an interest in learning how to carry out flow cytometry analyses in R, they often do not know where to start. Additionally, many of the limited existed resources are focused towards users with intermediate bioinformatic skills, contributing to a greater barrier for entry. Our motivation in offering this mini-course tailored towards beginners is to make the learning journey smoother than the one we experienced. 
 
-What is required? For those attending online, you will need a computer with access to the internet. The operating system shouldn't matter, since we will be offering code examples for Linux, Mac and Windows. As with everything flow cytometry software-related, more RAM and storage space is usefull, but for most of the provided examples not required. You will need to be able to install the required software, and install R packages from the CRAN and Bioconductor repositories (as well as a few GitHub-based R packages). For those using a university IT administered computer, you may not have the permissions needed to install, and will need to reach out to them in advance. If you are using your own computer, you should have the necessary permissions. 
 
-For those attending in person: We have a pop-up computer lap for the conference room. If you bring your own laptop, you can directly plug in to the second screens with the provided mouse and keyboard. If you don't have your own laptop, you can borrow one of the 6 older Linux laptops from the FlowCore for the hour. We have second-screen capacity for six people per session, with late-arrivers needing to balance their laptop on their seat. 
+### Rationale
 
-What do we provide? Each week, we will update the website with the course materials for the week. These will typically consist of the Quarto Markdown document, which is used to explain and run the R code. If you have your own data, you can bring your own data! If you don't have some, or want to follow along, we will also make available some of our data that you can utilize. 
+While designing the course, we kept the following concepts in mind:
 
-Each session will start with 10-15 minutes of background, where we discuss the topic, it's connection to R and Cytometry, and what we will be doing during that session. The next 30 minutes participants work through the examples, assisted when needed by the instructors. The final 10 minutes we share insights, troubleshoot any stickpoints. We additionally will provide links to other useful resources on the topic, as well as two optional take-home problems. 
+- Beginning coders benefit both by having detailed examples that they can initially work through on their own time, as well as less defined problems that through troubleshooting enable the acquisition of the thought-process and skills needed for coding. 
 
-These take-home problems are intended more for you to work with your own data in a not-so-structured manner, and start developing the problem-solving/debugging skills that take time and effort to develop. If you want instructor feedback, you can submit these back to the course through a GitHub pull request to a designated take-home folder and we will reply. 
+- Some topics will take individuals a longer time to fully grasp. Providing a format and resources that enable being able to revisit the material multiple times is incredibly helpful. Likewise, life is busy, and missing a workshop session is highly probable. If this happens, it shouldn't make or break the ability of the individual to understanding the rest of the course. 
 
-All course materials will be available online via our course GitHub. The teaching materials are offered under a CC-BY-SA license, while all code examples are offered under the AGPL3-0 copyleft license. 
+- Consistency is key, and being able to apply what you are learning to your own datasets, files, and questions of interest helps achieve this. 
+
+### Cost
+
+Is there a cost to participate? No, it's absolutely free! Is there a catch? Yes, you learn R, and may wind up with strong feelings about flowframes vs. cytoframes. This is also our first year offering this course, so we will sporadically ask you to fill out a feedback form to help us improve. 
+
+### Format
+
+Each week, the mini-course will cover a particular topic for an hour. This individual class is offered on multiple days, at different times, both in-person and online. You are invited to attend whichever day best fits your schedule for that week. If life gets busy and you can't make your regular day, you have an additional four opportunities for that week covering the same topic. 
+
+In-person, we are tentatively planning on Monday, Wednesday, Friday from 4-5 pm EST in Bressler 7-035. 
+Virtual options are planned for Tuesday and Thursday via livestream on YouTube and the Cytometry Discord. The virtual times will be determined based on interest of the participants. 
+
+Each session starts with 10-15 minutes of **Background** about the session topic, and it's relevance to both R and Cytometry. Over the next 30 minutes, participants work through **Hands-on** examples, using either their own data, or an example dataset that we will provide. Instructors assist where needed and answer questions during this time. The final 10 minutes we reconvene as a group, **Share** insights and troubleshoot any remaining stickpoints. Finally, we provide links to useful resources for those who want to learn more about the topic, as well as provide two optional take-home problems.
+
+Each week, we will update the website with the course materials for the week. These will typically consist of the Quarto Markdown document, which is used to explain and run the R code. If you have your own data, you can bring your own data! If you don't have some, or want to follow along, we will also make available some of our data that you can utilize. All course materials for the given week will be made available online via our course website and course GitHub repository. In our commitment to open-source and open-science, all teaching materials are freely offered under a CC-BY-SA license, while all code examples are offered under the AGPL3-0 copyleft license. 
+
+The take-home problems are intended to get you to work with your own data on similar problems in a not-so-structured manner. The challenges you encounter in solving them will help foster the problem-solving/debugging/way-of-thinking skills needed to successfully work with code. Both works-and-progress and solved problems can be discussed and submitted on our GitHub repository to the designated take-home folder of the week, where both instructors and others taking the course can provide feedback. 
+
+### Computing Requirements
+
+For those attending online, you will need a computer with internet access. Operating system shouldn't matter, as we will be offering code examples for Linux, Mac and Windows. As with all things flow-cytometry software, a good CPU with multiple cores, more RAM, and greater storage space are generally helpful, but not deal breakers. 
+
+You will need to be able to install the required software (R, Rtools, Positron, Git, Quarto) as well as intstall and compile R packages from the CRAN and Bioconductor repositories (as well as a few GitHub-based R packages). For those using university or company administered computers, please be aware that you may not have the necessary permissions to install these directly, and may need to reach out to your IT department to help get these initial requirements set up. If you are using your own computer, congratulations, you are your system administrator, and should already have the necessary permissions.
+
+For those attending in-person, we have set up a pop-up computer lab in the conference room. For those who arrive early, we have a limited number of second screens with provided mouse and keyboard that you can plug a laptop into via HDMI cable to set up a workstation. For those arriving later, the room has enough space (and electrical plugs) for 20 people, but you will need to balance a laptop on your lap. If you have your own laptop, feel free to bring it. If you don't have a laptop, the flow core has 6 loaner laptops running Linux that we can let participants use for that session. 
+
+### Tentative Schedule
+
+To see our tentative schedule, please click here:
+
+To sign up, please complete the Google Form and we will keep you updated:
+
+
+
+
+The course material is licensed under under the [Creative Commons Attribution-Share  Alike 4.0 International License][cc-by-sa]. The code examples provided in this course are licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
 <div style="text-align: right;">
 [![AGPL-3.0][agpl3-image]][agpl3]
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 </div>
 
-The course material is licensed under under the [Creative Commons Attribution-Share  Alike 4.0 International License][cc-by-sa]. The code examples provided in this course are licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE (AGPL-3.0)]()
-
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 [agpl3]: https://www.gnu.org/licenses/agpl-3.0.en.html
 [agpl3-image]: https://www.gnu.org/graphics/agplv3-with-text-162x68.png
-[agpl3-shield]: https://img.shields.io/badge/license-GPLv3-blue
+[agpl3-shield]: https://img.shields.io/badge/license-AGPLv3-blue
 

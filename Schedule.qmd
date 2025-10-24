@@ -1,3 +1,8 @@
+---
+toc: TRUE
+toc-location: right
+---
+
 ## **Cytometry in R: A Course for Beginners**
 
 [**Monday, October 06, 2025:**]{.underline} "Workstation Setup"
@@ -46,8 +51,6 @@ In this tenth session we explore extracting fluorescent signatures from our samp
 [**Monday, December 15, 2025:**]{.underline} Similarities and Hotspots
 
 Utilizing the spectral signatures we retrieved in the prior session, we evaluate spectral similarity using cosine values and panel complexity with kappa. We finally evaluate collinearity by implementing the hotspot matrix. 
-
-
 
 [**Monday, December 22, 2025:**]{.underline} Data for Statistics
 
