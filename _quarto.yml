@@ -20,9 +20,7 @@ website:
       - href: index.qmd
         text: Home
       - text: "Schedule"
-        menu: 
-        - text: "Schedule"
-          href: Schedule.qmd
+        href: Schedule.qmd
     right:
     - icon: github
       href: https://github.com/UMGCCFCSS/CytometryInR

@@ -2,15 +2,14 @@
 toc: true
 toc-location: right
 ---
+![](images/WebsiteBanner.png){width="100%"}
 
 <div style="text-align: right;">
 [![AGPL-3.0][agpl3-shield]][agpl3]
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 </div>
 
-To see our tentative schedule, please click here:
-
-To sign up, please complete the Google Form and we will keep you updated:
+Tentative course outline as of Wednesday October 29, 2025. Please complete the [interest form](https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor) to stay in the loop as we finalize date and times. 
 
 
 ### Motivation
@@ -39,7 +38,7 @@ Is there a cost to participate? No, it's absolutely free! Is there a catch? Yes,
 Each week, the mini-course will cover a particular topic for an hour. This individual class is offered on multiple days, at different times, both in-person and online. You are invited to attend whichever day best fits your schedule for that week. If life gets busy and you can't make your regular day, you have an additional four opportunities for that week covering the same topic. 
 
 In-person, we are tentatively planning on Monday, Wednesday, Friday from 4-5 pm EST in Bressler 7-035. 
-Virtual options are planned for Tuesday and Thursday via livestream on YouTube and the Cytometry Discord. The virtual times will be determined based on interest of the participants. 
+Virtual options are tentatively planned for Tuesday and Thursday via livestream on YouTube and the Cytometry Discord. However, final date and times will be determined on the interest, availability, and timezones of interested particants (please do fill our the [interest form](https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor)). 
 
 Each session starts with 10-15 minutes of **Background** about the session topic, and it's relevance to both R and Cytometry. Over the next 30 minutes, participants work through **Hands-on** examples, using either their own data, or an example dataset that we will provide. Instructors assist where needed and answer questions during this time. The final 10 minutes we reconvene as a group, **Share** insights and troubleshoot any remaining stickpoints. Finally, we provide links to useful resources for those who want to learn more about the topic, as well as provide two optional take-home problems.
 
@@ -55,15 +54,12 @@ You will need to be able to install the required software (R, Rtools, Positron, 
 
 For those attending in-person, we have set up a pop-up computer lab in the conference room. For those who arrive early, we have a limited number of second screens with provided mouse and keyboard that you can plug a laptop into via HDMI cable to set up a workstation. For those arriving later, the room has enough space (and electrical plugs) for 20 people, but you will need to balance a laptop on your lap. If you have your own laptop, feel free to bring it. If you don't have a laptop, the flow core has 6 loaner laptops running Linux that we can let participants use for that session. 
 
-### Tentative Schedule
+### Schedule
 
-To see our tentative schedule, please click here:
-
-To sign up, please complete the Google Form and we will keep you updated:
+Click [here](Schedule.qmd) to see the tentative course content and schedule as of October 29, 2025. Please complete the [interest form](https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor) to stay in the loop as we finalize date and times. Thanks!
 
 
-
-
+# License
 The course material is licensed under under the [Creative Commons Attribution-Share  Alike 4.0 International License][cc-by-sa]. The code examples provided in this course are licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
 <div style="text-align: right;">
