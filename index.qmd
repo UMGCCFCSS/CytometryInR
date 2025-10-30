@@ -9,7 +9,7 @@ toc-location: right
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 </div>
 
-Tentative course outline as of Wednesday October 29, 2025. Please complete the [interest form](https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor) to stay in the loop as we finalize date and times. 
+Tentative course outline as of Wednesday October 29, 2025. Click [here](Schedule.qmd) to see the tentative course content and schedule. Please complete the [interest form](https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor) to stay in the loop as we finalize date and times. 
 
 
 ### Motivation
