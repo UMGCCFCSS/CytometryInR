@@ -175,7 +175,7 @@ gtag('config', 'G-LZ35J3XE4D', { 'anonymize_ip': true});
 
 
 
-<p><img src="images/WebsiteBanner.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/WebsiteBanner.png" class="img-fluid"></p>
 <section id="cytometry-in-r-a-course-for-beginners" class="level4">
 <h4 class="anchored" data-anchor-id="cytometry-in-r-a-course-for-beginners">Cytometry in R: A Course for Beginners</h4>
 <p>Tentative schedule as of October 29, 2025. Please complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor">interest form</a> to stay in the loop as we finalize date and times.</p>
@@ -183,7 +183,7 @@ gtag('config', 'G-LZ35J3XE4D', { 'anonymize_ip': true});
 <section id="workstation-setup" class="level4">
 <h4 class="anchored" data-anchor-id="workstation-setup">Workstation Setup</h4>
 <p><u><strong>Week 1:</strong></u> The main focus of this first session is ensuring everyone’s computer is properly setup, and to start building familiarity with the infrastructure used for the rest of the course.</p>
-<p>Participants install R, Rtools, Positron, Quarto, and Git; then setup and link a GitHub account. Introduces the concept of version control, and how in combination with Quarto it will be used for submitting optional take-home assignments. Finally, R packages in the flow cytometry context are discussed, including where they can be found (CRAN, Bioconductor, GitHub) and how to install them.</p>
+<p>Participants install <a href="https://cran.rstudio.com/">R</a>, <a href="https://cran.r-project.org/bin/windows/Rtools/">Rtools</a>, <a href="https://positron.posit.co/">Positron</a>, <a href="https://quarto.org/">Quarto</a>, and <a href="https://git-scm.com/">Git</a>; then setup and link a <a href="https://github.com/">GitHub</a> account. Introduces the concept of version control, and how in combination with Quarto it will be used for submitting optional take-home assignments. Finally, R packages in the flow cytometry context are discussed, including where they can be found (CRAN, Bioconductor, GitHub) and how to install them.</p>
 </section>
 <section id="file-paths" class="level4">
 <h4 class="anchored" data-anchor-id="file-paths">File Paths</h4>
@@ -195,15 +195,16 @@ gtag('config', 'G-LZ35J3XE4D', { 'anonymize_ip': true});
 </section>
 <section id="introduction-to-the-tidyverse" class="level4">
 <h4 class="anchored" data-anchor-id="introduction-to-the-tidyverse">Introduction to the Tidyverse</h4>
-<p><u><strong>Week 4:</strong></u> This fourth session explores how the various Tidyverse packages can be used to rearrange data. We utilize the expression data we isolated from inside our experiment to manipulate data.frames and select for cells that meet certain criteria.</p>
+<p><img src="images/WebsiteBanner.png" class="img-fluid"></p>
+<p><u><strong>Week 4:</strong></u> Within this session, we explore how the various <a href="https://tidyverse.org/">tidyverse</a> packages are utilized to reorganize rows and columns of data in ways that are useful for data analysis. We will primarily work with the MFI expression data we isolated from within the .fcs file in the previous session, identifying and isolating events that meet certain criterias. We introduce the concepts behind <a href="https://vita.had.co.nz/papers/tidy-data.pdf">“tidy”</a> data and how it can improve our workflows.</p>
 </section>
 <section id="gating-sets" class="level4">
 <h4 class="anchored" data-anchor-id="gating-sets">Gating Sets</h4>
-<p><u><strong>Week 5:</strong></u> This fifth session involves learning about the flow cytometry infrastructure packages, namely FlowCore and flowWorkspace. We explore how they differ in function naming, memory utilization, and metadata retention. We practice adding metadata and filtering on the basis of these conditions.</p>
+<p><u><strong>Week 5:</strong></u> As part of this session, we learn about the two main flow cytometry infrastructure packages in R we will be working with during the course, <a href="https://www.bioconductor.org/packages/release/bioc/vignettes/flowCore/inst/doc/HowTo-flowCore.pdf">flowcore</a> and <a href="https://www.bioconductor.org/packages/release/bioc/vignettes/flowWorkspace/inst/doc/flowWorkspace-Introduction.html">flowWorkspace</a>. Throughout the session, we will compare how they differ in naming, memory usage, and accessing .fcs file metadata. We additionally explore how to add keywords to the metadata for use in filtering specimens of interest from the larger set of files.</p>
 </section>
 <section id="visualizing-with-ggplot2" class="level4">
 <h4 class="anchored" data-anchor-id="visualizing-with-ggplot2">Visualizing with ggplot2</h4>
-<p><u><strong>Week 6:</strong></u> This sixth session provides an introduction to the ggplot2 package. We learn about various layer elements that in combination can be used to produce many types of plots. For this session, we visualize data from our fcs files with 1 and 2D histograms, as well as generate a few statistical summary plots. We provide links to additional helpful resources for those interested in learning more</p>
+<p><u><strong>Week 6:</strong></u> During this session we provide an introduction to the <a href="https://ggplot2.tidyverse.org/">ggplot2</a> package. We will take the datasets we have collected from the previous sessions and see how in varying in different arguments at the respective plot layers we can produce and customize many different forms of plots, focusing on both cytometry and statistics plots. We close out providing links to <a href="https://youtu.be/_indbXPXUw8?si=iZRFHzWvBZg-wu_X">additional helpful resources</a> and highlight the <a href="https://github.com/rfordatascience/tidytuesday">TidyTuesday</a> project.</p>
 </section>
 <section id="transformations-and-compensation" class="level4">
 <h4 class="anchored" data-anchor-id="transformations-and-compensation">Transformations and compensation</h4>
@@ -235,11 +236,11 @@ gtag('config', 'G-LZ35J3XE4D', { 'anonymize_ip': true});
 </section>
 <section id="automated-gating" class="level4">
 <h4 class="anchored" data-anchor-id="automated-gating">Automated Gating</h4>
-<p><u><strong>Week 14:</strong></u> In this session, we explore openCyto and it’s automated gating templates. We explore various gating implementations and work on learning how to set the gate constraints to work for our own projects. We utilize a cell count dataset for this purpose.</p>
+<p><u><strong>Week 14:</strong></u> In this session, we explore <a href="">openCyto</a> and it’s automated gating templates. We explore various gating implementations and work on learning how to set the gate constraints to work for our own projects. We utilize a cell count dataset for this purpose.</p>
 </section>
 <section id="cleaning-algorithms" class="level4">
 <h4 class="anchored" data-anchor-id="cleaning-algorithms">Cleaning Algorithms</h4>
-<p><u><strong>Week 15:</strong></u> We evaluate the data cleanup algorithms, PeacoQC, FlowAI, FlowCut and FlowClean, and compare the various elements that get targeted for removal. We discuss which of these are worthwhile and how to evaluate whether the algorithmic decisions make sense.</p>
+<p><u><strong>Week 15:</strong></u> In the span of this session, we will directly compare how various Bioconductor data cleanup algorithms (namely <a href="https://www.bioconductor.org/packages/release/bioc/vignettes/PeacoQC/inst/doc/PeacoQC_Vignette.pdf">PeacoQC</a>, <a href="https://www.bioconductor.org/packages/release/bioc/vignettes/flowAI/inst/doc/flowAI.html">FlowAI</a>, <a href="https://www.bioconductor.org/packages/release/bioc/vignettes/flowCut/inst/doc/flowCut.html">FlowCut</a>, and <a href="https://www.bioconductor.org/packages/release/bioc/vignettes/flowClean/inst/doc/flowClean.pdf">FlowClean</a> tackle distinguishing and removing bad quality events. We will see how they perform with previously identified good quality and horrific quality .fcs files. We will whether the implemented algorithmic decisions made sense, and how to customize them within our workflows to achieve our own desired goals.</p>
 </section>
 <section id="clustering-algorithms" class="level4">
 <h4 class="anchored" data-anchor-id="clustering-algorithms">Clustering Algorithms</h4>
@@ -247,11 +248,11 @@ gtag('config', 'G-LZ35J3XE4D', { 'anonymize_ip': true});
 </section>
 <section id="normalization-vs.-batch-effects" class="level4">
 <h4 class="anchored" data-anchor-id="normalization-vs.-batch-effects">Normalization vs.&nbsp;Batch Effects</h4>
-<p><u><strong>Week 17:</strong></u> We investigate how to normalize cells using CytoNorm and CyCombine. We evaluate ridge plots and other approaches to carry this out further.</p>
+<p><u><strong>Week 17:</strong></u> We investigate how to normalize cells using <a href="">CytoNorm</a> and <a href="">CyCombine</a>. We evaluate ridge plots and other approaches to carry this out further.</p>
 </section>
 <section id="dimensionality-visualization-is-any-of-this-real" class="level4">
 <h4 class="anchored" data-anchor-id="dimensionality-visualization-is-any-of-this-real">Dimensionality Visualization: Is any of this real?</h4>
-<p><u><strong>Week 18:</strong></u> We perform tSNE and UMAP in R for our raw and unmixed samples. We also walk through the steps of linking to a Python installation in order to run PaCMAP and Phate visualizations.</p>
+<p><u><strong>Week 18:</strong></u> We perform <a href="">tSNE</a> and <a href="">UMAP</a> in R for our raw and unmixed samples. We also walk through the steps of linking to a Python installation in order to run <a href="">PaCMAP</a> and <a href="">Phate</a> visualizations.</p>
 </section>
 <section id="annotating-your-unsupervised-clusters" class="level4">
 <h4 class="anchored" data-anchor-id="annotating-your-unsupervised-clusters">Annotating your unsupervised clusters</h4>

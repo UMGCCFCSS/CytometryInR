@@ -52,4 +52,4 @@ Click [here](Schedule.qmd) to see the tentative course content and schedule as o
 
 
 # License
-The course material is licensed under under the [Creative Commons Attribution-Share  Alike 4.0 International License][cc-by-sa]. The code examples provided in this course are licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.en.html)
+The course material is licensed under under the [Creative Commons Attribution-Share  Alike 4.0 International License](). The code examples provided in this course are licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.en.html)
