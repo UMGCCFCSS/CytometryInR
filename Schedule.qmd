@@ -15,7 +15,7 @@ Tentative schedule as of October 29, 2025. Please complete the [interest form](h
 
 [**Week 1:**]{.underline} The main focus of this first session is ensuring everyone's computer is properly setup, and to start building familiarity with the infrastructure used for the rest of the course. 
 
-Participants install R, Rtools, Positron, Quarto, and Git; then setup and link a GitHub account. Introduces the concept of version control, and how in combination with Quarto it will be used for submitting optional take-home assignments. Finally, R packages in the flow cytometry context are discussed, including where they can be found (CRAN, Bioconductor, GitHub) and how to install them. 
+Participants install [R](), [Rtools](), [Positron](), [Quarto](), and [Git](); then setup and link a GitHub account. Introduces the concept of version control, and how in combination with Quarto it will be used for submitting optional take-home assignments. Finally, R packages in the flow cytometry context are discussed, including where they can be found (CRAN, Bioconductor, GitHub) and how to install them. 
 
 #### File Paths
 

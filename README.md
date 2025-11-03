@@ -1,14 +1,4 @@
----
-format: html
-toc: true
-toc-location: right
----
 ![](images/WebsiteBanner.png){width="100%"}
-
-<div style="text-align: right;">
-[![AGPL-3.0][agpl3-shield]][agpl3]
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
-</div>
 
 Tentative course outline as of Wednesday October 29, 2025. Click [here](Schedule.qmd) to see the proposed course content and schedule.
 
@@ -63,15 +53,3 @@ Click [here](Schedule.qmd) to see the tentative course content and schedule as o
 
 # License
 The course material is licensed under under the [Creative Commons Attribution-Share  Alike 4.0 International License][cc-by-sa]. The code examples provided in this course are licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.en.html)
-
-<div style="text-align: right;">
-[![AGPL-3.0][agpl3-image]][agpl3]
-[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
-</div>
-
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
-[agpl3]: https://www.gnu.org/licenses/agpl-3.0.en.html
-[agpl3-image]: https://www.gnu.org/graphics/agplv3-with-text-162x68.png
-[agpl3-shield]: https://img.shields.io/badge/license-AGPLv3-blue
