@@ -1,4 +1,4 @@
-![](images/WebsiteBanner.png){width="100%"}
+![](images/WebsiteBanner.png)
 
 Tentative course outline as of Wednesday October 29, 2025. Click [here](Schedule.qmd) to see the proposed course content and schedule.
 
