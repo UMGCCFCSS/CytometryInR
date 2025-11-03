@@ -13,28 +13,25 @@ Tentative schedule as of October 29, 2025. Please complete the [interest form](h
 
 #### Workstation Setup
 
-[**Week 1:**]{.underline} The main focus of this first session is ensuring everyone's computer is properly setup, and to start building familiarity with the infrastructure used for the rest of the course. 
-
-Participants install [R](https://cran.rstudio.com/), [Rtools](https://cran.r-project.org/bin/windows/Rtools/), [Positron](https://positron.posit.co/), [Quarto](https://quarto.org/), and [Git](https://git-scm.com/); then setup and link a [GitHub](https://github.com/) account. Introduces the concept of version control, and how in combination with Quarto it will be used for submitting optional take-home assignments. Finally, R packages in the flow cytometry context are discussed, including where they can be found (CRAN, Bioconductor, GitHub) and how to install them. 
+[**Week 1:**]{.underline} During this first session, we will ensure that everyone's computer gets properly setup, as well as start building individual participants familiarity with the software infrastructure that they will be using throughout the rest of the course. Namely, you will need to install [R](https://cran.rstudio.com/), [Rtools](https://cran.r-project.org/bin/windows/Rtools/), [Positron](https://positron.posit.co/), [Quarto](https://quarto.org/), and [Git](https://git-scm.com/); as well as setup and link to a [GitHub](https://github.com/) account. This session also touches on concepts behind version control and how to install R package from the various repositories (CRAN, Bioconductor, GitHub).
 
 #### File Paths
 
-[**Week 2:**]{.underline} This second session covers file paths, and how they differ between operating systems (Linux, macOS and Windows). The goal is by the end of the session everyone can programmatically locate where there .fcs files are stored, list any other items present in the same folders, and assign alternate storage locations. 
+[**Week 2:**]{.underline} For this session, we focus on how to programmatically tell your computer where to locate your experimental files, introducing the concept of [file paths](https://ytakemon.github.io/2019-10-22-R-BCCRC/02-filedir/). We explore how the various operating systems (Linux, MacOS, Windows) specify their respective folders and files, and how to identify where you are currently within the directory. Our goal by the end of this session is to have walked you through how to figure out where an .fcs file of interest is stored, and convey to your computer where you want it copied/moved to, without encountering the common pitfalls. 
 
 #### Inside an .FCS file
 
-[**Week 3:**]{.underline} This third session revolves around breaking open an .FCS file and seeing what are the individual components that make it up. In the process, we cover the concepts of types of data structures within R (vectors, matrices, data.frames, list). 
+[**Week 3:**]{.underline} In the course of this session we will slice into an .FCS file and find out what the individual components that make it up are. In the process, we will cover the concepts of main [data structures](http://adv-r.had.co.nz/Data-structures.html) within R (vectors, matrices, data.frames, list) and how to identify what we are working with. Additionally, we will explore how various cytometry softwares store their metadata variables under various keywords that can be useful to have access to. 
+
 
 #### Introduction to the Tidyverse
 
-![](images/WebsiteBanner.png)
-
-[**Week 4:**]{.underline} Within this session, we explore how the various [tidyverse](https://tidyverse.org/) packages are utilized to reorganize rows and columns of data in ways that are useful for data analysis. We will primarily work with the MFI expression data we isolated from within the .fcs file in the previous session, identifying and isolating events that meet certain criterias. We introduce the concepts behind ["tidy"](https://vita.had.co.nz/papers/tidy-data.pdf) data and how it can improve our workflows. 
+[**Week 4:**]{.underline} Within this session, we explore how the various [tidyverse](https://tidyverse.org/) packages can be utilized to reorganize rows and columns of data in ways that are useful for data analysis. We will primarily work with the MFI expression data we isolated from within the .fcs file in the previous session, identifying and isolating events that meet certain criterias. We introduce the concepts behind ["tidy"](https://vita.had.co.nz/papers/tidy-data.pdf) data and how it can improve our workflows. 
 
 
 #### Gating Sets
 
-[**Week 5:**]{.underline} As part of this session, we learn about the two main flow cytometry infrastructure packages in R we will be working with during the course, [flowcore](https://www.bioconductor.org/packages/release/bioc/vignettes/flowCore/inst/doc/HowTo-flowCore.pdf) and [flowWorkspace](https://www.bioconductor.org/packages/release/bioc/vignettes/flowWorkspace/inst/doc/flowWorkspace-Introduction.html). Throughout the session, we will compare how they differ in naming, memory usage, and accessing .fcs file metadata. We additionally explore how to add keywords to the metadata for use in filtering specimens of interest from the larger set of files.   
+[**Week 5:**]{.underline} As part of this session, we learn about the two main flow cytometry infrastructure packages in R we will be working with during the course, [flowcore](https://www.bioconductor.org/packages/release/bioc/vignettes/flowCore/inst/doc/HowTo-flowCore.pdf) and [flowWorkspace](https://www.bioconductor.org/packages/release/bioc/vignettes/flowWorkspace/inst/doc/flowWorkspace-Introduction.html). Throughout the session, we will compare how they differ in naming, memory usage, and accessing .fcs file metadata. We additionally explore how to add keywords to their respective metadata for use in filtering specimens of interest from the larger set of .fcs files.   
 
 #### Visualizing with ggplot2
 
