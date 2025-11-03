@@ -9,7 +9,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "Thanks for investigating"
+    content: "Thanks for investigating :)"
     type: info
     position: below-navbar  
   title: "Cytometry in R"

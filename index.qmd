@@ -1,4 +1,5 @@
 ---
+format: html
 toc: true
 toc-location: right
 ---
@@ -9,14 +10,15 @@ toc-location: right
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 </div>
 
-Tentative course outline as of Wednesday October 29, 2025. Click [here](Schedule.qmd) to see the tentative course content and schedule. Please complete the [interest form](https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor) to stay in the loop as we finalize date and times. 
+Tentative course outline as of Wednesday October 29, 2025. Click [here](Schedule.qmd) to see the proposed course content and schedule.
 
+Please complete the [interest form](https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor) to stay in the loop as we finalize date and times. 
 
 ### Motivation
 
-"Cytometry in R" is a weekly mini-course being offered both in-person and online by the Flow Cytometry Shared Resource staff at the University of Maryland Greenebaum Comprehensive Cancer Center. Its primary audience is for those with prior flow cytometry knowledge, who have limited previous experience with with the programming language R. 
+"Cytometry in R" is a weekly mini-course being offered both in-person and online by the Flow Cytometry Shared Resource staff at the [University of Maryland Greenebaum Comprehensive Cancer Center](https://www.medschool.umaryland.edu/cibr/core/umgccc_flow/). Its primary audience is for those with prior flow cytometry knowledge, who have limited previous experience with the programming language [R](https://www.r-project.org/). 
 
-While many cytometry enthusiast express an interest in learning how to carry out flow cytometry analyses in R, they often do not know where to start. Additionally, many of the limited existed resources are focused towards users with intermediate bioinformatic skills, contributing to a greater barrier for entry. Our motivation in offering this mini-course tailored towards beginners is to make the learning journey smoother than the one we experienced. 
+While many cytometry enthusiast express an interest in learning how to carry out flow cytometry analyses in R, they often do not know where to start. Additionally, many of the limited [existing resources](https://umgccfcss.github.io/BISCC_2025/Resources.html#cytometry-in-r) are focused towards users with intermediate bioinformatic skills, contributing to a greater barrier for entry for those just starting out. Our motivation in offering this mini-course tailored towards beginners is to make the learning journey smoother than the one we ourselves experienced. 
 
 
 ### Rationale
@@ -38,7 +40,7 @@ Is there a cost to participate? No, it's absolutely free! Is there a catch? Yes,
 Each week, the mini-course will cover a particular topic for an hour. This individual class is offered on multiple days, at different times, both in-person and online. You are invited to attend whichever day best fits your schedule for that week. If life gets busy and you can't make your regular day, you have an additional four opportunities for that week covering the same topic. 
 
 In-person, we are tentatively planning on Monday, Wednesday, Friday from 4-5 pm EST in Bressler 7-035. 
-Virtual options are tentatively planned for Tuesday and Thursday via livestream on YouTube and the Cytometry Discord. However, final date and times will be determined on the interest, availability, and timezones of interested particants (please do fill our the [interest form](https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor)). 
+Virtual options are tentatively planned for Tuesday and Thursday via livestream on [YouTube](https://youtube.com/@stepupcytometry?si=_GzYhqwdthV-awNx) and the [Cytometry Discord](https://www.reddit.com/r/flowcytometry/comments/1dccpjb/announcing_the_flow_cytometry_discord_server/). However, final date and times will be determined on the interest, availability, and timezones of interested particants (please do fill our the [interest form](https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor)). 
 
 Each session starts with 10-15 minutes of **Background** about the session topic, and it's relevance to both R and Cytometry. Over the next 30 minutes, participants work through **Hands-on** examples, using either their own data, or an example dataset that we will provide. Instructors assist where needed and answer questions during this time. The final 10 minutes we reconvene as a group, **Share** insights and troubleshoot any remaining stickpoints. Finally, we provide links to useful resources for those who want to learn more about the topic, as well as provide two optional take-home problems.
 

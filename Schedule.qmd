@@ -1,199 +1,134 @@
 ---
+format: html
 toc: TRUE
 toc-location: right
+toc-depth: 4
+toc-expand: true
 ---
 ![](images/WebsiteBanner.png){width="100%"}
 
-# Cytometry in R: A Course for Beginners
+#### Cytometry in R: A Course for Beginners
 
 Tentative schedule as of October 29, 2025. Please complete the [interest form](https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor) to stay in the loop as we finalize date and times. 
 
-# Workstation Setup
+#### Workstation Setup
 
-[**Week 1:**]{.underline} "Workstation Setup"
-
-The main focus of this first session is ensuring everyone's computer is properly setup, and to start building familiarity with the infrastructure used for the rest of the course. 
+[**Week 1:**]{.underline} The main focus of this first session is ensuring everyone's computer is properly setup, and to start building familiarity with the infrastructure used for the rest of the course. 
 
 Participants install R, Rtools, Positron, Quarto, and Git; then setup and link a GitHub account. Introduces the concept of version control, and how in combination with Quarto it will be used for submitting optional take-home assignments. Finally, R packages in the flow cytometry context are discussed, including where they can be found (CRAN, Bioconductor, GitHub) and how to install them. 
 
-# File Paths
+#### File Paths
 
-[**Week 2:**]{.underline} "File Paths"
+[**Week 2:**]{.underline} This second session covers file paths, and how they differ between operating systems (Linux, macOS and Windows). The goal is by the end of the session everyone can programmatically locate where there .fcs files are stored, list any other items present in the same folders, and assign alternate storage locations. 
 
-This second session covers file paths, and how they differ between operating systems (Linux, macOS and Windows). The goal is by the end of the session everyone can programmatically locate where there .fcs files are stored, list any other items present in the same folders, and assign alternate storage locations. 
+#### Inside an .FCS file
 
-# Inside an .FCS file
+[**Week 3:**]{.underline} This third session revolves around breaking open an .FCS file and seeing what are the individual components that make it up. In the process, we cover the concepts of types of data structures within R (vectors, matrices, data.frames, list). 
 
-[**Week 3:**]{.underline} "Inside an .FCS file "
+#### Introduction to the Tidyverse
 
-This third session revolves around breaking open an .FCS file and seeing what are the individual components that make it up. In the process, we cover the concepts of types of data structures within R (vectors, matrices, data.frames, list). 
+[**Week 4:**]{.underline} This fourth session explores how the various Tidyverse packages can be used to rearrange data. We utilize the expression data we isolated from inside our experiment to manipulate data.frames and select for cells that meet certain criteria. 
 
-# Introduction to the Tidyverse
+#### Gating Sets
 
-[**Week 4:**]{.underline} "Introduction to the Tidyverse"
+[**Week 5:**]{.underline} This fifth session involves learning about the flow cytometry infrastructure packages, namely FlowCore and flowWorkspace. We explore how they differ in function naming, memory utilization, and metadata retention. We practice adding metadata and filtering on the basis of these conditions.  
 
-This fourth session explores how the various Tidyverse packages can be used to rearrange data. We utilize the expression data we isolated from inside our experiment to manipulate data.frames and select for cells that meet certain criteria. 
+#### Visualizing with ggplot2
 
-# Gating Sets
+[**Week 6:**]{.underline} This sixth session provides an introduction to the ggplot2 package. We learn about various layer elements that in combination can be used to produce many types of plots. For this session, we visualize data from our fcs files with 1 and 2D histograms, as well as generate a few statistical summary plots. We provide links to additional helpful resources for those interested in learning more
 
-[**Week 5:**]{.underline} "Gating Sets"
+#### Transformations and compensation
 
-This fifth session involves learning about the flow cytometry infrastructure packages, namely FlowCore and flowWorkspace. We explore how they differ in function naming, memory utilization, and metadata retention. We practice adding metadata and filtering on the basis of these conditions.  
+[**Week 7:**]{.underline} For this seventh session, we explore how to transform (ie. scale) flow cytometry data in R to more ressemble the plots we encounter using commercial software. We also explore how to apply compensation to conventional flow cytometry files. 
 
-# Visualizing with ggplot2
+#### It's raining functions
 
-[**Week 6:**]{.underline} "Visualizing with ggplot2"
+[**Week 8:**]{.underline} This eight session takes a detailed walk-through of what is a function, how their arguments work, and how to create your own to do useful work and reduce the number of times code gets copied and pasted. We also cover how to use your own functions with walk and map from the purrr package.
 
-This sixth session provides an introduction to the ggplot2 package. We learn about various layer elements that in combination can be used to produce many types of plots. For this session, we visualize data from our fcs files with 1 and 2D histograms, as well as generate a few statistical summary plots. We provide links to additional helpful resources for those interested in learning more
+#### Downsampling and Concatenation
 
-# Transformations and compensation
+[**Week 9:**]{.underline} This ninth session explores how to downsample your fcs files to a desired number or percentage, and how to concatenate different samples together for use in downstream applications. We also briefly review how to create a new .fcs file. 
 
-[**Week 7:**]{.underline} "Transformations and compensation"
+#### Spectral Signatures
 
-For this seventh session, we explore how to transform (ie. scale) flow cytometry data in R to more ressemble the plots we encounter using commercial software. We also explore how to apply compensation to conventional flow cytometry files. 
+[**Week 10:**]{.underline} In this tenth session we explore extracting fluorescent signatures from our samples, both beads and cells. We build on prior concepts to isolate median of the positive and negative gates. We finally wrap up showcasing various packages that have added ease of life for various steps. 
 
-# It's raining functions
+#### Similarities and Hotspots
 
-[**Week 8:**]{.underline}  "It's raining functions"
+[**Week 11:**]{.underline} Utilizing the spectral signatures we retrieved in the prior session, we evaluate spectral similarity using cosine values and panel complexity with kappa. We finally evaluate collinearity by implementing the hotspot matrix. 
 
-This eight session takes a detailed walk-through of what is a function, how their arguments work, and how to create your own to do useful work and reduce the number of times code gets copied and pasted. We also cover how to use your own functions with walk and map from the purrr package.
+#### Retrieving data for Statistics
 
-# Downsampling and Concatenation
+[**Week 12:**]{.underline} Leveraging increasing familiarity with the various packages, we will retrieve the gates from our GatingSet and work on programmatically derriving metrics that are typically used for statistical analysis in cytometry. We will create a couple additional ggplot style plots to add to our arsenal. 
 
-[**Week 9:**]{.underline} "Downsampling and Concatenation"
+#### Unmixing in R
 
-This ninth session explores how to downsample your fcs files to a desired number or percentage, and how to concatenate different samples together for use in downstream applications. We also briefly review how to create a new .fcs file. 
+[**Week 13:**]{.underline} This session goes for a reach goal for many, how to carry out unmixing of raw .fcs files using the spectral signatures we have isolated from our unmixing controls. Once we evaluate the necessary internals, we explore how various cytometry packages have implemented their own individual approaches at tackling this, and various limitations they have encountered. 
 
-# Spectral Signatures
+#### Automated Gating
 
-[**Week 10:**]{.underline} "Spectral Signatures"
+[**Week 14:**]{.underline} In this session, we explore openCyto and it's automated gating templates. We explore various gating implementations and work on learning how to set the gate constraints to work for our own projects. We utilize a cell count dataset for this purpose. 
 
-In this tenth session we explore extracting fluorescent signatures from our samples, both beads and cells. We build on prior concepts to isolate median of the positive and negative gates. We finally wrap up showcasing various packages that have added ease of life for various steps. 
+#### Cleaning Algorithms
 
-# Similarities and Hotspots
+[**Week 15:**]{.underline} We evaluate the data cleanup algorithms, PeacoQC, FlowAI, FlowCut and FlowClean, and compare the various elements that get targeted for removal. We discuss which of these are worthwhile and how to evaluate whether the algorithmic decisions make sense. 
 
-[**Week 11:**]{.underline} "Similarities and Hotspots"
+#### Clustering Algorithms
 
-Utilizing the spectral signatures we retrieved in the prior session, we evaluate spectral similarity using cosine values and panel complexity with kappa. We finally evaluate collinearity by implementing the hotspot matrix. 
+[**Week 16:**]{.underline} We explore unsupervised clustering approaches, primarily FlowSOM, Phenograph, and kmeans. We investigate additional ways of linking these approaches to our manual gating to evaluate the final clusters. 
 
-# Retrieving data for Statistics
+#### Normalization vs. Batch Effects
 
-[**Week 12:**]{.underline} "Retrieving data for Statistics"
+[**Week 17:**]{.underline} We investigate how to normalize cells using CytoNorm and CyCombine. We evaluate ridge plots and other approaches to carry this out further. 
 
-Leveraging increasing familiarity with the various packages, we will retrieve the gates from our GatingSet and work on programmatically derriving metrics that are typically used for statistical analysis in cytometry. We will create a couple additional ggplot style plots to add to our arsenal. 
+#### Dimensionality Visualization: Is any of this real?
 
-# Unmixing in R
+[**Week 18:**]{.underline} We perform tSNE and UMAP in R for our raw and unmixed samples. We also walk through the steps of linking to a Python installation in order to run PaCMAP and Phate visualizations. 
 
-[**Week 13:**]{.underline} "Unmixing in R"
+#### Annotating your unsupervised clusters
 
-This session goes for a reach goal for many, how to carry out unmixing of raw .fcs files using the spectral signatures we have isolated from our unmixing controls. Once we evaluate the necessary internals, we explore how various cytometry packages have implemented their own individual approaches at tackling this, and various limitations they have encountered. 
+[**Week 19:**]{.underline} We explore various existing implementations of annotation, that can be modified to label our various clusters and islands. We investigate how these function under the hood in their decision making. 
 
-# Automated Gating
+#### The Art of GitHub diving
 
-[**Week 14:**]{.underline} "Automated Gating"
+[**Week 20:**]{.underline} While we have been building familiarity with GitHub over the course, there is an art to investigating a new potential package to see if its worthwhile. This session we walk through the main points of how a Github repository is structured, and how to evaluate and use it, submit bug reports, etc. 
 
-In this session, we explore openCyto and it's automated gating templates. We explore various gating implementations and work on learning how to set the gate constraints to work for our own projects. We utilize a cell count dataset for this purpose. 
+#### XML files all the way down
 
-# Cleaning Algorithms
+[**Week 21:**]{.underline} The majority of experiment templates and worksheet layouts are actually .xml files. These like other files, can be treated as lines of code, that we can create or edit similar to what we have been doing in the rest of the course. In this session, we test out our new problem solving abilities to retrieve data from SpectroFlo and Diva files to monitor how our cytometers behaved the previous week
 
-[**Week 15:**]{.underline} "Cleaning Algorithms"
+#### Utilizing Bioconductor packages
 
-We evaluate the data cleanup algorithms, PeacoQC, FlowAI, FlowCut and FlowClean, and compare the various elements that get targeted for removal. We discuss which of these are worthwhile and how to evaluate whether the algorithmic decisions make sense. 
+[**Week 22:**]{.underline} Many of the R packages for Flow Cytometry introduced during this course are also packages available via the Bioconductor project. We take a look at what makes Bioconductor unique compared to packages found on GitHub and CRAN, explore how to merge our workflows with their specific infrastructure, and explore some useful packages for downstream analysis that we haven't had time to yet explore. 
 
-# Clustering Algorithms
+#### Building your first R package
 
-[**Week 16:**]{.underline} "Clustering Algorithms"
+[**Week 23:**]{.underline} For most of this course, we have been working using R packages that others have built. In this session, we leverage all the hard work you have already put into the small arsenal of functions and combine them together to create your first R package. We will discuss the individual pieces of an R package, the importance of the namespace file, and how to generate help page manuals to refer back to what your individual function arguments do. 
 
-We explore unsupervised clustering approaches, primarily FlowSOM, Phenograph, and kmeans. We investigate additional ways of linking these approaches to our manual gating to evaluate the final clusters. 
+#### Reproducibility and Replicability
 
-# Normalization vs. Batch Effects
+[**Week 24:**]{.underline} As you progressed through the course, you notice we constantly bring up the importance of making both your workspaces and code reproducible and replicable. But what exactly does this mean, and are their ways to do this more efficiently? We explore a couple community-led efforts in the cytometry space and troubleshoot new ways to ease their implementation into our existing workflows. 
 
-[**Week 17:**]{.underline} "Normalization vs. Batch Effects"
+#### Validating algorthmic tools
 
-We investigate how to normalize cells using CytoNorm and CyCombine. We evaluate ridge plots and other approaches to carry this out further. 
+[**Week 25:**]{.underline} It's always fun learning about new cytometry analysis algorithms at a conference, given we know how much effort goes into creating them. The challenge is how to best evaluate whether their claims hold up over time. While understanding exactly why something involves a boatload of specific knowledge, noticing when the outputs doesn't make sense in your biological context is achievable. We discuss a few show-case examples and work through exploratory data analysis options that would have helped uncover the issues earlier.
 
-# Dimensionality Visualization: Is any of this real?
+#### Everyone get's a Quarto Website
 
-[**Week 18:**]{.underline} "Dimensionality Visualization: Is any of this real?"
+[**Week 26:**]{.underline} In this session, we take the knowledge of R code and .qmd documents that we have accumulated over the course, and use them to create our own website using Quarto. We discuss the additional files needed to render the website, how to configure abd update it, and finally set up a new GitHub page to host it for us. 
 
-We perform tSNE and UMAP in R for our raw and unmixed samples. We also walk through the steps of linking to a Python installation in order to run PaCMAP and Phate visualizations. 
+#### Open Source Licenses
 
-# Annotating your unsupervised clusters
+[**Week 27:**]{.underline} In this course, we have relied heavily on open-source software to create our own data analysis pipelines, and have some recollection of the various names of licenses each R package was licensed under. But what do all those different names mean in the end? We take a look at the ecosystem of free and open-source licenses, and evaluate what each means for us as users and developers. 
 
-[**Week 19:**]{.underline} "Annotating your unsupervised clusters"
+#### Databases and repositories
 
-We explore various existing implementations of annotation, that can be modified to label our various clusters and islands. We investigate how these function under the hood in their decision making. 
+[**Week 28:**]{.underline} While many of us are accustomed with working with large datasets of our own making, increasingly many are working with increasingly large datasets and repositories. How you navigate and manage to retrieve .fcs files and relavent metadata from these repositories can be daunting for the uninnitated. In this section, we take a look at ImmPort (and maybe FlowRepository if it is reachable that day)
 
-# The Art of GitHub diving
+#### Google Chrome Inspects the web page
 
-[**Week 20:**]{.underline} "The Art of GitHub diving"
+[**Week 29:**]{.underline} In this session, we explore the broader topic of web-scraping and APIs in general. We highlight useful packages, and conventions in place to enable retrieval of useful data, while not being responsible for the crash of someone's server. We finish by providing list useful resources for those interested in learning more. 
 
-While we have been building familiarity with GitHub over the course, there is an art to investigating a new potential package to see if its worthwhile. This session we walk through the main points of how a Github repository is structured, and how to evaluate and use it, submit bug reports, etc. 
+#### Future Directions
 
-# XML files all the way down
-
-[**Week 21:**]{.underline} ".XML files all the way down"
-
-The majority of experiment templates and worksheet layouts are actually .xml files. These like other files, can be treated as lines of code, that we can create or edit similar to what we have been doing in the rest of the course. In this session, we test out our new problem solving abilities to retrieve data from SpectroFlo and Diva files to monitor how our cytometers behaved the previous week
-
-# Utilizing Bioconductor packages
-
-[**Week 22:**]{.underline} "Utilizing Bioconductor packages"
-
-Many of the R packages for Flow Cytometry introduced during this course are also packages available via the Bioconductor project. We take a look at what makes Bioconductor unique compared to packages found on GitHub and CRAN, explore how to merge our workflows with their specific infrastructure, and explore some useful packages for downstream analysis that we haven't had time to yet explore. 
-
-# Building your first R package
-
-[**Week 23:**]{.underline} "Building your first R package"
-
-For most of this course, we have been working using R packages that others have built. In this session, we leverage all the hard work you have already put into the small arsenal of functions and combine them together to create your first R package. We will discuss the individual pieces of an R package, the importance of the namespace file, and how to generate help page manuals to refer back to what your individual function arguments do. 
-
-# Reproducibility and Replicability
-
-[**Week 24:**]{.underline} "Reproducibility and Replicability"
-
-As you progressed through the course, you notice we constantly bring up the importance of making both your workspaces and code reproducible and replicable. But what exactly does this mean, and are their ways to do this more efficiently? We explore a couple community-led efforts in the cytometry space and troubleshoot new ways to ease their implementation into our existing workflows. 
-
-# Validating algorthmic tools
-
-[**Week 25:**]{.underline} "Validating algorthmic tools"
-
-It's always fun learning about new cytometry analysis algorithms at a conference, given we know how much effort goes into creating them. The challenge is how to best evaluate whether their claims hold up over time. While understanding exactly why something involves a boatload of specific knowledge, noticing when the outputs doesn't make sense in your biological context is achievable. We discuss a few show-case examples and work through exploratory data analysis options that would have helped uncover the issues earlier.
-
-# Everyone get's a Quarto Website
-
-[**Week 26:**]{.underline} "Everyone get's a Quarto Website"
-
-In this session, we take the knowledge of R code and .qmd documents that we have accumulated over the course, and use them to create our own website using Quarto. We discuss the additional files needed to render the website, how to configure abd update it, and finally set up a new GitHub page to host it for us. 
-
-# Open Source Licenses
-
-[**Week 27:**]{.underline} "Open Source Licenses"
-
-In this course, we have relied heavily on open-source software to create our own data analysis pipelines, and have some recollection of the various names of licenses each R package was licensed under. But what do all those different names mean in the end? We take a look at the ecosystem of free and open-source licenses, and evaluate what each means for us as users and developers. 
-
-# Databases and repositories
-
-[**Week 28:**]{.underline} "Databases and repositories"
-
-While many of us are accustomed with working with large datasets of our own making, increasingly many are working with increasingly large datasets and repositories. How you navigate and manage to retrieve .fcs files and relavent metadata from these repositories can be daunting for the uninnitated. In this section, we take a look at ImmPort (and maybe FlowRepository if it is reachable that day)
-
-# Google Chrome Inspects the web page
-
-[**Week 29:**]{.underline} "Google Chrome Inspects the web page"
-
-In this session, we explore the broader topic of web-scraping and APIs in general. We highlight useful packages, and conventions in place to enable retrieval of useful data, while not being responsible for the crash of someone's server. We finish by providing list useful resources for those interested in learning more. 
-
-# Future Directions
-
-[**Week 30:**]{.underline} "Future Directions"
-
-In this final (planned) session, we revisit our challenge problems from the beginning of the course. We also discuss future topics and additional resources that proved helpful. 
-
-
-
-
-
-
-
-
+[**Week 30:**]{.underline} In this final (planned) session, we revisit our challenge problems from the beginning of the course. We also discuss future topics and additional resources that proved helpful. 
