@@ -16,7 +16,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### Workstation Setup
 
-![](images/PopUpLab.jpeg){width=75%}
+![](images/PopUpLab.jpeg){width=25%}
 
 [**Week 1:**]{.underline} During this first session, we will ensure that everyone's computer gets properly setup, as well as start building individual participants familiarity with the software infrastructure that they will be using throughout the rest of the course. Namely, you will need to install [R](https://cran.rstudio.com/), [Rtools](https://cran.r-project.org/bin/windows/Rtools/), [Positron](https://positron.posit.co/), [Quarto](https://quarto.org/), and [Git](https://git-scm.com/); as well as setup and link to a [GitHub](https://github.com/) account. This session also touches on concepts behind version control and how to install R package from the various repositories ([CRAN](https://cran.r-project.org/), [Bioconductor](https://www.bioconductor.org/), [GitHub](https://github.com/r-lib/remotes)).
 
@@ -25,7 +25,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### File Paths
 
-![](https://www.medschool.umaryland.edu/media/som/offices-of-the-dean/information-services/screenshots/mappedrives02.png)
+![](https://www.medschool.umaryland.edu/media/som/offices-of-the-dean/information-services/screenshots/mappedrives02.png){width=50%}
 
 [**Week 2:**]{.underline} For this session, we focus on how to programmatically tell your computer where to locate your experimental files, introducing the concept of [file paths](https://ytakemon.github.io/2019-10-22-R-BCCRC/02-filedir/). We explore how the various operating systems (Linux, MacOS, Windows) specify their respective folders and files, and how to identify where you are currently within the directory. Our goal by the end of this session is to have walked you through how to figure out where an .fcs file of interest is stored, and convey to your computer where you want it copied/moved to, without encountering the common pitfalls. 
 
@@ -34,7 +34,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### Inside an .FCS file
 
-![](https://www.researchgate.net/profile/John-Drakos/publication/5575630/figure/fig1/AS:202978347753476@1425405217571/The-structure-of-FCS-files-The-HEADER-is-a-fixed-size-58-bytes-ASCII-encoded-segment.png)
+![](https://www.researchgate.net/profile/John-Drakos/publication/5575630/figure/fig1/AS:202978347753476@1425405217571/The-structure-of-FCS-files-The-HEADER-is-a-fixed-size-58-bytes-ASCII-encoded-segment.png){width=50%}
 
 [**Week 3:**]{.underline} In the course of this session we will slice into an .FCS file and find out what the individual components that make it up are. In the process, we will cover the concepts of main [data structures](http://adv-r.had.co.nz/Data-structures.html) within R (vectors, matrices, data.frames, list) and how to identify what we are working with. Additionally, we will explore how various cytometry softwares store their metadata variables under various keywords that can be useful to know about. 
 
@@ -61,7 +61,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### Visualizing with ggplot2
 
-![](images/StatsIFNg.png)
+![](images/StatsIFNg.png){width=50%}
 
 [**Week 6:**]{.underline} During this session we provide an introduction to the [ggplot2](https://ggplot2.tidyverse.org/) package. We will take the datasets we have collected from the previous sessions and see how in varying in different arguments at the respective plot layers we can produce and customize many different forms of plots, focusing on both cytometry and statistics plots. We close out providing links to [additional helpful resources](https://youtu.be/_indbXPXUw8?si=iZRFHzWvBZg-wu_X) and highlight the [TidyTuesday](https://github.com/rfordatascience/tidytuesday) project. 
 
@@ -79,7 +79,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### It's Raining Functions!
 
-![](https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/raining-monkeys-e3fa8001e4eb47433b1cc58e2017d2b8.png)
+![](https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/raining-monkeys-e3fa8001e4eb47433b1cc58e2017d2b8.png){width=75%}
 
 [**Week 8:**]{.underline} In the course of this eight session, we tackle one of the harder but most useful concepts to learn for a begginer, namely [functions](https://r4ds.had.co.nz/functions.html). We explore what they are, how their individual arguments work, how they differ from for-loops, and how to create our own to do useful work, reduce the number times code gets copied and pasted. Additionally, some functional programming best practices will be introduced, as well as provide introduction to how to use the walk and map functions from the [purrr](https://purrr.tidyverse.org/) package. 
 
@@ -88,6 +88,8 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### Downsampling and Concatenation
 
+![](https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/creative-assets/s-migr/ul/g/7d/10/downsampling-near-miss-v3.png){width=50%}
+
 [**Week 9:**]{.underline} Within this session, we will expand on our growing understanding of GatingSets, functions and fcs file internals to write a script to downsample your fcs files to a desired number (or percentage) of cells for a given cell population. We will additionally learn how to concatenate these downsampled files together, and save them to a new .fcs file in ways that the metadata can be read by commercial software without the scaling being widely thrown off.  
 
 <br>
@@ -95,7 +97,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### Spectral Signatures
 
-![](images/Signatures.png){width=100%}
+![](images/Signatures.png){width=75%}
 
 [**Week 10:**]{.underline} As part of this session, we will explore how to extract fluorescent signatures from our raw spectral flow cytometry reference controls. Building on prior concepts, we will learn to isolate median signatures from positive and negative gates, and how to derrive and plot normalized signatures. We also introduce [plotly](https://plotly.com/r/) package and it's interactive plotting features, before showcasing various packages attempts at facilitating signature retrieval. 
  
@@ -122,7 +124,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### Unmixing in R
 
-![](Unmixing.png){width=75%}
+![](images/Unmixing.png){width=75%}
 
 [**Week 13:**]{.underline} In the course of this session, we will attempt a reach goal of many, namely carry out unmixing of raw .fcs files using the spectral signatures we have isolated from our unmixing controls, and write to new .fcs files. After evaluating the necessary internals, we will explore how various current cytometry R packages have implemented their own unmixing functions, and the various limitations that each approach has encountered.  
 
@@ -149,7 +151,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### Clustering Algorithms
 
-![](https://docs.flowjo.com/wp-content/uploads/2023/03/image-6-1024x1024.png)
+![](https://docs.flowjo.com/wp-content/uploads/2023/03/image-6-1024x1024.png){width=50%}
 
 [**Week 16:**]{.underline} As part of this session, we venture away from supervised and semi-supervised analyses to explore unsupervised clustering approaches, namely [FlowSOM](https://onlinelibrary.wiley.com/doi/10.1002/cyto.a.22625) and [Phenograph](https://www.colibri-cytometry.com/post/the-peculiarities-of-phenograph). We will compare outcomes depending markers included, transformations applied, and panel used to gain a greater familiarity with how they work. We wrap up by investigating ways to visualize marker expression of cells ending up in each cluster, and how to backgate them to our manual gates.
 
@@ -176,7 +178,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### Annotating Unsupervised Clusters
 
-![](https://media.geeksforgeeks.org/wp-content/uploads/20230731175958/Bagging-classifier.png)
+![](https://media.geeksforgeeks.org/wp-content/uploads/20230731175958/Bagging-classifier.png){width=50%}
 
 [**Week 19:**]{.underline} In the course of this session, we explore ways to scale our efficiency in figuring out what an unsupervised cluster of cells may be, by employing several annotation packages. We explore how these work under the hood in their decision making process, and how to link them to reference data from external repositories for additional evaluation. 
 
@@ -185,7 +187,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### The Art of GitHub Diving
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE3IHi5Y2itTmH60RF81y5b8JnSeeJvTTATA&s)
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE3IHi5Y2itTmH60RF81y5b8JnSeeJvTTATA&s){width=100%}
 
 [**Week 20:**]{.underline} Within this session, we delve into the art of investigating a new-to-you GitHub repository. We discuss the overall structure of R packages stored as source files within GitHub repositories, and how to leverage this knowledge when troubleshooting errors thrown by underdocumented R packages. We discuss how to modify identified functions, evaluate them, and process to submit helpful bug reports back to the original project to help fix the issue.
 
@@ -194,7 +196,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### XML Files All The Way Down
 
-![](https://www.mssqltips.com/wp-content/images-tips/2899_img5.jpg)
+![](https://www.mssqltips.com/wp-content/images-tips/2899_img5.jpg){width=50%}
 
 [**Week 21:**]{.underline} Breaking news alert, most of the experiment templates and worksheet layouts we work with as cytometrist are .xml files. In this session, we learn some additional coding tools to allow us to work with these types of files to extract useful data. In this session, we test out our new problem solving abilities to retrieve data from SpectroFlo and Diva .xml files to monitor how our core's flow cytometers behaved for various users last week.
 
@@ -221,57 +223,63 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ### Reproducibility and Replicability
 
-![](https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2F533452a/MediaObjects/41586_2016_BF533452a_Fige_HTML.jpg)
+![](https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2F533452a/MediaObjects/41586_2016_BF533452a_Fige_HTML.jpg){width=50%}
 
-[**Week 24:**]{.underline} As you progressed through the course, you notice we constantly bring up the importance of making both your workspaces and code reproducible and replicable. But what exactly does this mean, and are their ways to do this more efficiently? We explore a couple community-led efforts in the cytometry space and troubleshoot new ways to ease their implementation into our existing workflows. 
-
-<br>
-<br>
-
-### Validating algorthmic tools
-
-[**Week 25:**]{.underline} It's always fun learning about new cytometry analysis algorithms at a conference, given we know how much effort goes into creating them. The challenge is how to best evaluate whether their claims hold up over time. While understanding exactly why something involves a boatload of specific knowledge, noticing when the outputs doesn't make sense in your biological context is achievable. We discuss a few show-case examples and work through exploratory data analysis options that would have helped uncover the issues earlier.
+[**Week 24:**]{.underline} Throughout the course, we emphasized the importance of making your workspaces and code reproducible and replicable. But what do we mean by these terms, and are there best practices we could add to our existing workflow to do this more efficiently? We explore a couple community-led efforts within the cytometry space and troubleshoot their implementation into a previously published pipeline. 
 
 <br>
 <br>
 
-### Everyone get's a Quarto Website
+### Validating Algorthmic Tools
+
+![](https://ecx.images-amazon.com/images/I/41f9FvgwgzL.jpg){width=50%}
+
+[**Week 25:**]{.underline} We will be the first to admit, new implementations of algorithms as R packages are awesome! We appreciate the effort that went into them and making them available to the community at large. But what is the best way of evaluating whether they behave as promised, or work for our dataset? During this session, we share tips and tricks to gain better understanding of how a new R package works, and things to watch out for when evaluating complicated algortithms. We wrap with walkthrough of how to generate simulated datasets with known distributions for use in testing. 
+
+<br>
+<br>
+
+### Everyone Get's a Quarto Website
 
 ![](images/3L_V1_Gain_2024.png){width=75%}
 
-[**Week 26:**]{.underline} In this session, we take the knowledge of R code and .qmd documents that we have accumulated over the course, and use them to create our own website using Quarto. We discuss the additional files needed to render the website, how to configure abd update it, and finally set up a new GitHub page to host it for us. 
+[**Week 26:**]{.underline} In this session, we will extend the knowledge of .R and .qmd files you have gained from the course and extend them to create your own website using [Quarto](). We discuss the additional files that are required, how to customize and render the website locally, and finally set up [Quarto Pub](https://quartopub.com/) or [GitHub Pages](https://docs.github.com/en/pages) website that we are to access online. 
 
 <br>
 <br>
 
 ### Open Source Licenses
 
-![](https://cdn.media.amplience.net/i/epammarketplace/Software_Licenses_1?maxW=1200&qlt=80&fmt=jpg&bg=rgb(255,255,255)&v=1365581685114)
+![](https://cdn.media.amplience.net/i/epammarketplace/Software_Licenses_1?maxW=1200&qlt=80&fmt=jpg&bg=rgb(255,255,255)&v=1365581685114){width=50%}
 
-[**Week 27:**]{.underline} In this course, we have relied heavily on open-source software to create our own data analysis pipelines, and have some recollection of the various names of licenses each R package was licensed under. But what do all those different names mean in the end? We take a look at the ecosystem of free and open-source licenses, and evaluate what each means for us as users and developers. 
+[**Week 27:**]{.underline} For this course, we have relied extensively on open-source software to create our own data analysis pipelines. In the process, you may have some recollection of the various license names. But what impact do all these different names have in the end? We take a brief deep-dive into the ecosystem of [free and open-source licenses](https://en.wikipedia.org/wiki/Free_and_open-source_software), and evaluate what their respective license terms mean for us as individual users of the code, as well as potential developers extending existing codebases. 
 
 <br>
 <br>
 
-### Databases and repositories
+### Databases and Repositories
 
-![](images/Database.png)
+![](images/Database.png){width=50%}
 
-[**Week 28:**]{.underline} While many of us are accustomed with working with large datasets of our own making, increasingly many are working with increasingly large datasets and repositories. How you navigate and manage to retrieve .fcs files and relavent metadata from these repositories can be daunting for the uninnitated. In this section, we take a look at ImmPort (and maybe FlowRepository if it is reachable that day)
+[**Week 28:**]{.underline} During this session, we will learn how to identify and retrieve .fcs files from databases. While many of us are accustomed to working with large datasets of our own making, many of us are increasingly encountering larger-than-memory datasets, as well as files stored in large repositories. In this session, we will explore several database focused R [packages](https://arrow.apache.org/docs/r/), before investigating how to identify and retrieve .fcs files and associated metadata of interest from repositories, namely [ImmPort](https://www.immport.org/shared/) (and maybe [FlowRepository](https://flowrepository.org/) if it can be pinged that afternoon).
 
 <br>
 <br>
 
 ### Assembling Web Data
 
-[**Week 29:**]{.underline} In this session, we explore the broader topic of web-scraping and APIs in general. We highlight useful packages, and conventions in place to enable retrieval of useful data, while not being responsible for the crash of someone's server. We finish by providing list useful resources for those interested in learning more. 
+![](https://media.brightdata.com/2023/01/Web-scraping-with-R.png){width=50%}
+
+[**Week 29:**]{.underline} In this session, we briefly delve into the concepts of web-scraping and APIs in general. We highlight useful packages, namely [httr2](https://httr2.r-lib.org/) and [rvest](https://rvest.tidyverse.org/), and best practices implemented to allow respectful retrieval of useful data without crashing someone's server like some AI startup bot. We finish by providing a list of additional useful resources for those interested in learning more. 
 
 <br>
 <br>
 
 ### Future Directions
 
-[**Week 30:**]{.underline} In this final (planned) session, we revisit our challenge problems from the beginning of the course. We also discuss future topics and additional resources that proved helpful. 
+![](images/Future.jpg){width=75%}
+
+[**Week 30:**]{.underline} In this final of the planned sessions, we revisit our solutions to the challenge problems set out during the beginning of the course. We also discuss potential future topics to visit in the future, and any additional resources that proved helpful throughout the course. 
 
 <br>
 <br>
