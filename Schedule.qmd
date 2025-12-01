@@ -4,12 +4,13 @@ toc: TRUE
 toc-location: right
 toc-depth: 4
 toc-expand: true
+sidebar: false
 ---
 ![](images/WebsiteBanner.png)
 
 ### Cytometry in R: A Course for Beginners
 
-This is the tentative course schedule as of November 03, 2025. Please complete the [interest form](https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor) to stay in the loop as we finalize date and times. If you would like us to cover additional topics, please suggest them to the emails in the interest form. Thanks! - David
+This is the tentative course schedule as of December 1, 2025. Please complete the [interest form](https://docs.google.com/forms/d/e/1FAIpQLScPK4V_WNSgQvZNq7aIHpoiX8pi3kiuCfI0Tp7hQkVJS3HPtQ/viewform?usp=publish-editor) to stay in the loop as we finalize date and times. If you would like us to cover additional topics, please suggest them to the emails in the interest form. Thanks! - David
 
 <br>
 <br>
@@ -77,11 +78,22 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 <br>
 <br>
 
+### Manual and Automated Gating
+
+![](images/openCyto.png){width=75%}
+
+[**Week 8:**]{.underline} Within this session, we explore various ways to implement gating for flow cytometry files in R. We will explore manual approaches utilizing [flowGate](https://www.bioconductor.org/packages/release/bioc/html/flowGate.html), as well as automated options with [openCyto](https://www.bioconductor.org/packages/release/bioc/vignettes/openCyto/inst/doc/HowToAutoGating.html) and it's gating templates. We additionally will explore how to provide gate constraints and various ways to visually screen and evaluate the outcomes within the context of our own projects.
+
+<br>
+<br>
+
+
+
 ### It's Raining Functions!
 
 ![](https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/raining-monkeys-e3fa8001e4eb47433b1cc58e2017d2b8.png){width=75%}
 
-[**Week 8:**]{.underline} In the course of this eight session, we tackle one of the harder but most useful concepts to learn for a begginer, namely [functions](https://r4ds.had.co.nz/functions.html). We explore what they are, how their individual arguments work, how they differ from for-loops, and how to create our own to do useful work, reduce the number times code gets copied and pasted. Additionally, some functional programming best practices will be introduced, as well as provide introduction to how to use the walk and map functions from the [purrr](https://purrr.tidyverse.org/) package. 
+[**Week 9:**]{.underline} In the course of this ninth session, we tackle one of the harder but most useful concepts to learn for a begginer, namely [functions](https://r4ds.had.co.nz/functions.html). We explore what they are, how their individual arguments work, how they differ from for-loops, and how to create our own to do useful work, reduce the number times code gets copied and pasted. Additionally, some functional programming best practices will be introduced, as well as provide introduction to how to use the walk and map functions from the [purrr](https://purrr.tidyverse.org/) package. 
 
 <br>
 <br>
@@ -90,25 +102,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ![](https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/creative-assets/s-migr/ul/g/7d/10/downsampling-near-miss-v3.png){width=50%}
 
-[**Week 9:**]{.underline} Within this session, we will expand on our growing understanding of GatingSets, functions and fcs file internals to write a script to downsample your fcs files to a desired number (or percentage) of cells for a given cell population. We will additionally learn how to concatenate these downsampled files together, and save them to a new .fcs file in ways that the metadata can be read by commercial software without the scaling being widely thrown off.  
-
-<br>
-<br>
-
-### Spectral Signatures
-
-![](images/Signatures.png){width=75%}
-
-[**Week 10:**]{.underline} As part of this session, we will explore how to extract fluorescent signatures from our raw spectral flow cytometry reference controls. Building on prior concepts, we will learn to isolate median signatures from positive and negative gates, and how to derrive and plot normalized signatures. We also introduce [plotly](https://plotly.com/r/) package and it's interactive plotting features, before showcasing various packages attempts at facilitating signature retrieval. 
- 
-<br>
-<br>
-
-### Similarities and Hotspots
-
-![](images/Hotspot.png){width=75%}
-
-[**Week 11:**]{.underline} During this session, we will utilize the spectral signature matrix isolated from raw spectral flow cytometry controls and evaluate different ways of evaluating how similar different fluorescent signatures are to each other.  In the process, we will gain better understanding of the metrics behind similarity (cosine), panel complexity (kappa), and unmixing-dependent spreading (collinearity). 
+[**Week 10:**]{.underline} Within this session, we will expand on our growing understanding of GatingSets, functions and fcs file internals to write a script to downsample your fcs files to a desired number (or percentage) of cells for a given cell population. We will additionally learn how to concatenate these downsampled files together, and save them to a new .fcs file in ways that the metadata can be read by commercial software without the scaling being widely thrown off.  
 
 <br>
 <br>
@@ -117,7 +111,25 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ![](images/TidyData.png){width=33%}
 
-[**Week 12:**]{.underline} Leveraging the increased familiarity working with the various packages this far in the course, in this session we will retrieve summary statistics for the gates within our GatingSet, and programmatically derrive out tidy data.frames for use in statistical analyses typically used by many Immunologist. In the process, we add a couple additional plot types to our ggplot2 arsenal to hold in reserve should Prism prices go up again. 
+[**Week 11:**]{.underline} Leveraging the increased familiarity working with the various packages this far in the course, in this session we will retrieve summary statistics for the gates within our GatingSet, and programmatically derrive out tidy data.frames for use in statistical analyses typically used by many Immunologist. In the process, we add a couple additional plot types to our ggplot2 arsenal to hold in reserve should Prism prices go up again. 
+
+<br>
+<br>
+
+### Spectral Signatures
+
+![](images/Signatures.png){width=75%}
+
+[**Week 12:**]{.underline} As part of this session, we will explore how to extract fluorescent signatures from our raw spectral flow cytometry reference controls. Building on prior concepts, we will learn to isolate median signatures from positive and negative gates, and how to derrive and plot normalized signatures. We also introduce [plotly](https://plotly.com/r/) package and it's interactive plotting features, before showcasing various packages attempts at facilitating signature retrieval. 
+ 
+<br>
+<br>
+
+### Similarities and Hotspots
+
+![](images/Hotspot.png){width=75%}
+
+[**Week 13:**]{.underline} During this session, we will utilize the spectral signature matrix isolated from raw spectral flow cytometry controls and evaluate different ways of evaluating how similar different fluorescent signatures are to each other.  In the process, we will gain better understanding of the metrics behind similarity (cosine), panel complexity (kappa), and unmixing-dependent spreading (collinearity). 
 
 <br>
 <br>
@@ -126,16 +138,7 @@ This is the tentative course schedule as of November 03, 2025. Please complete t
 
 ![](images/Unmixing.png){width=75%}
 
-[**Week 13:**]{.underline} In the course of this session, we will attempt a reach goal of many, namely carry out unmixing of raw .fcs files using the spectral signatures we have isolated from our unmixing controls, and write to new .fcs files. After evaluating the necessary internals, we will explore how various current cytometry R packages have implemented their own unmixing functions, and the various limitations that each approach has encountered.  
-
-<br>
-<br>
-
-### Automated Gating
-
-![](images/openCyto.png){width=75%}
-
-[**Week 14:**]{.underline} Within this session, we explore the various automated gating options within [openCyto](https://www.bioconductor.org/packages/release/bioc/vignettes/openCyto/inst/doc/HowToAutoGating.html) and how to setup it's gating templates. We additionally will explore providing additional gate constraints, and various ways to rapidly visually screen and evaluate the outcomes within the context of our own projects.
+[**Week 14:**]{.underline} In the course of this session, we will attempt a reach goal of many, namely carry out unmixing of raw .fcs files using the spectral signatures we have isolated from our unmixing controls, and write to new .fcs files. After evaluating the necessary internals, we will explore how various current cytometry R packages have implemented their own unmixing functions, and the various limitations that each approach has encountered.  
 
 <br>
 <br>
