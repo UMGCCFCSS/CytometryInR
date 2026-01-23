@@ -1,4 +1,4 @@
-![](images/WebsiteBanner.png)
+
 
 # We Have Moved
 
